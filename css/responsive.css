@@ -1,0 +1,11 @@
+@media(min-width:425px) {
+          
+    table {
+              width: 10rem;
+              font-size: 0.1rem;
+    }
+    table>#action{
+              width: 0.5rem;
+    }
+
+}

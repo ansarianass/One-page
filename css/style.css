@@ -1,0 +1,285 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    box-sizing: border-box;
+
+}
+
+.main {
+    display: flex;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+
+}
+
+
+.logo>img {
+    background-color: black;
+    width: 10rem;
+    object-fit: cover;
+    object-position: center;
+
+}
+
+
+
+.left>#menu>ul>li {
+    list-style: none;
+    width: 15rem;
+    height: 2.5rem;
+    border: 2px solid transparent;
+    align-items: center;
+    padding-top: 0.6rem;
+    border-radius: 0.5rem;
+
+}
+
+.left>#menu>ul>#USERS {
+    background-color: lightblue;
+}
+
+
+.left>#menu>ul>li>a {
+    text-decoration: none;
+    color: black;
+    margin-left: 1rem;
+
+}
+
+li>a>i {
+    font-size: 1rem;
+    margin-right: 0.5rem;
+
+}
+
+
+.right {
+    width: 300rem;
+    min-height: 100vh;
+    margin-left: 2rem;
+    border: 0.1rem solid gray;
+    position: relative;
+    white-space: none;
+}
+
+.right>.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.right>.nav {
+    display: flex;
+
+}
+
+.nav>.bell {
+    height: 3rem;
+    width: 3rem;
+
+}
+
+.nav>.bell>i {
+    margin: 1rem 1rem;
+    font-size: 2rem;
+}
+
+.nav>.profl {
+    height: 3rem;
+    width: 3rem;
+    margin: 0rem 1rem;
+    border-radius: 50%;
+    z-index: 1;
+
+}
+
+.nav>.profl img {
+    padding-top: 0.5rem;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+
+
+}
+
+.right-main {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+
+}
+
+.upper {
+    height: 5rem;
+    width: 70vw;
+    margin-top:2rem;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 1rem;
+    box-shadow: 0rem 0.5rem 0rem 0rem lightblue;
+}
+
+.upper>button {
+    height: 2rem;
+    width: 5rem;
+    margin: 1.5rem 1.5rem;
+    border-radius: 0.5rem;
+    border: none;
+}
+
+.upper>#new {
+    background-color: rgb(31, 208, 99);
+}
+
+.upper>#exp {
+    background-color: skyblue;
+}
+
+/* lowr part begins */
+
+
+.lower {
+    
+    
+    margin-top:3rem;
+    width: 70vw;
+    background-color: aliceblue;
+    border: 0.1px solid black;
+    border-radius: 1rem;
+    box-shadow: 0rem 0.5rem 0rem 0rem lightblue;
+
+}
+
+.lower>#nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem;
+}
+
+.lower>#nav>.search {
+    border: 0.1rem solid black;
+    border-radius: 0.5rem;
+}
+
+.lower>#nav>.search>input {
+
+    border: none;
+}
+
+.lower>#nav>.search>i {
+    margin-top: 0.3rem;
+    margin-left: 0.5rem;
+}
+
+#table>table {
+    margin-top: 2rem;
+    width: 100%;
+    height: 5rem;
+    border: 1px solid black;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+table button {
+    font-size: 3rem;
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    margin: 1rem;
+}
+
+#tr>th {
+    height: 3rem;
+}
+
+#tr>#Action {
+    width: 20rem;
+}
+
+td>#tr>td {
+    height: 3rem;
+}
+
+
+
+tr {
+    height: 5rem;
+
+}
+
+table>#tr {
+    background-color: gray;
+}
+
+#low>td {
+    background-color: gray;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+
+}
+
+footer>.number {
+    display: flex;
+
+    width: 10rem;
+    height: 5rem;
+}
+
+.number>.left,
+#right i {
+    align-items: center;
+    height: 2rem;
+    width: 2rem;
+    font-size: 1.5rem;
+    background-color: gray;
+    border-radius: 50%;
+    margin-left: 1rem;
+    padding-top: 0.1rem;
+}
+
+.left i {
+    text-align: center;
+}
+
+#right i {
+    text-align: center;
+
+}
+
+.number>.num {
+    height: 2rem;
+    width: 2rem;
+    /* padding: 0.5rem; */
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: lighter;
+    background-color: rgb(46, 189, 245);
+    border-radius: 50%;
+    margin-left: 1rem;
+
+}
+
+.choose {
+    margin-right: 1.5rem;
+
+}
+
+.choose select {
+    height: 1.5rem;
+    width: 3rem;
+    font-size: 1rem;
+}
